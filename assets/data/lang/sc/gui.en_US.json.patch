@@ -1,0 +1,14 @@
+{
+  "labels": {
+    "options": {
+      "controls": {
+        "keys": {
+          "jump": "Jump"
+        }
+      },
+      "headers": {
+        "jetpack": "jetpack"
+      }
+    }
+  }
+}

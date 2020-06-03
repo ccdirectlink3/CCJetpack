@@ -1,12 +1,10 @@
-if (versions.hasOwnProperty('input-api')) {
-  sc.OPTIONS_DEFINITION['keys-jump'] = {
-    type: 'CONTROLS',
-    init: { key1: ig.KEY.CTRL },
-    cat: sc.OPTION_CATEGORY.CONTROLS,
-    hasDivider: true,
-    header: 'jetpack',
-  };
-}
+sc.OPTIONS_DEFINITION['keys-jump'] = {
+  type: 'CONTROLS',
+  init: { key1: ig.KEY.CTRL },
+  cat: sc.OPTION_CATEGORY.CONTROLS,
+  hasDivider: true,
+  header: 'jetpack',
+};
 
 ig.ENTITY.Player.inject({
   update(...args) {
