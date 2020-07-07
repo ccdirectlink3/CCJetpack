@@ -1,1 +1,0 @@
-Press CTRL to fly away
